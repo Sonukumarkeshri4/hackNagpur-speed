@@ -1,0 +1,148 @@
+body{
+  text-align : center;
+  font-family: serif;
+  margin: 0;
+  padding: 0;
+}
+.body1{
+  text-align : center;
+  font-family: serif;
+  margin: 0;
+  padding: 0;
+}
+label{
+  text-align : center;
+  /*font-family: serif;*/
+  text-decoration: none;
+  font-size: 20px;
+    font-family:sans-serif;
+  color: #ebebeb;
+}
+.navbar{
+  position:absolute;
+  background-color: #e6e6e6;
+  opacity:0.7;
+  width:95rem;
+  top : 0;
+  text-align:right;
+  list-style: none;
+}
+.navbar:hover{
+  opacity: 0.9;
+}
+.backy,.backy1{
+  margin:0;
+  height:49.1rem;
+  width:95rem;
+  position: relative;
+  opacity:1;
+}
+.registration{
+  position :absolute;
+  background-color: #00303f;
+  height:400px;
+  width: 600px;
+  left:450px;
+  top:200px;
+  opacity:0.6;
+
+}
+.registration:hover{
+  opacity:0.9;
+}
+li{
+  display:inline-block;
+  margin-right: 1.5rem;
+  padding: 15px 0 15px 0;
+  letter-spacing: 0;
+}
+a{
+  text-decoration: none;
+  font-size: 20px;
+    font-family:monospace;
+color: #433d3c;
+}
+a:hover{
+  background-color: #393e46;
+  color: #fcf8ec;
+  padding: 5px;
+  transition: 1.5 ease;
+}
+a:active{
+  background-color: #ffd66b;
+}
+.emailButton{
+  top:22rem;
+  right:42rem;
+  position: absolute;
+  border: 2px solid #4caf50;
+  color: #fcf8ec;
+  background-color: #008cba;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 1rem;
+  transition-duration: 0.4s;
+}
+.emailButton:hover{
+  background-color: #fcf8ec;
+  color: black;
+}
+.emailButton1,.emailButton2{
+  top:14rem;
+  left:6rem;
+  position: absolute;
+  border: 2px solid white;
+  color: #0a043c;
+  background-color: #9ab3f5;
+  padding: 20px 35px;
+  text-align: center;
+  font-size: 1.8rem;
+  transition-duration: 0.4s;
+
+}
+.emailButton1:hover, .emailButton2:hover{
+  background-color: #e8ffff;
+  color: #0f3057;
+}
+.emailButton2{
+  top: 22rem;
+  left: 6rem;
+}
+.submitButton{
+  display: inline-block;
+  border: 1px solid #4caf50;
+  color: #fcf8ec;
+  background-color: #008cba;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 1rem;
+  transition-duration: 0.4s;
+}
+.submitButton:hover{
+  background-color: #fcf8ec;
+  color: black;
+}
+.checkboxx{
+  height: 22px;
+  width: 22px;
+  background-color: #fcf8ef;
+}
+.control-me::after{
+  content: "Check details and Tick :";
+  font-size: 1rem;
+  font-family: sans-serif;
+  color: #fcf8ec;
+}
+.checkboxx:checked ~ .control-me::after{
+  content: "Click on SUBMIT ";
+  font-size: 1rem;
+  color: #fcf8ec;
+}
+.about{
+  position: absolute;
+  top:4rem;
+  text-decoration: none;
+  font-size: 20px;
+    font-family:monospace;
+color: #fcf8ec;
+}
